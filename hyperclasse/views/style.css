@@ -1,0 +1,62 @@
+html, body {
+  height: border-box;
+  margin: 0;
+  background: white;
+}
+nav {
+  background-color: rgb(175, 59, 59);
+  display: flex;
+}
+
+.brand {
+  margin: 20px;
+  font-size: xx-large;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.type {
+  font-size: small;
+  position: absolute;
+}
+
+.search, .sportwearlist, .identification, .panier {
+  margin: 30px;
+  text-decoration: none;
+}
+
+.linkadmin {
+  position: absolute;
+  bottom: 0%;
+  right: 0%;
+  margin: 20px;
+}
+
+.admintitle {
+  position: absolute;
+  top: 120px;
+  width: 100%;
+  text-align: center;
+  font-size: x-large;
+}
+
+.ajoutarticle {
+  position: relative;
+  top: 180px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 330px 330px 330px 330px;
+  grid-template-rows: 450px 450px 450px 450px;
+}
+
+.cart_container {
+  display: grid;
+  grid-template-columns: 800px 400px;
+  padding-left: 50px;
+}
+
+.article {
+  display: grid;
+  grid-template-columns: 400px 400px 400px ;
+}
